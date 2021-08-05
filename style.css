@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(197, 199, 216);
+}
+
+.center{
+display: flex;
+flex-direction: column;
+padding: 3%;
+}
+
+.center-3buttons{
+display: flex;
+justify-content: space-around;
+margin-bottom: 20px;
+}
+
+button{
+    background-color: rgb(69, 118, 197);
+    box-shadow: 5px 5px 5px 5px rgb(194, 226, 194);
+    font-size: 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 4%;
+}
+
+button:hover{
+    background-color: rgb(8, 15, 27);
+    color: white;
+    box-shadow: 5px 5px 5px 5px rgb(54, 100, 185);
+}
